@@ -1,7 +1,7 @@
 development:     #
   adapter: postgresql
   encoding: unicode
-  database: artpel
+  database: enterprise
   pool: 5
   username: postgres
   password: di03051999
