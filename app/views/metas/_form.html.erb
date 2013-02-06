@@ -37,6 +37,13 @@
           </tr>
 
           <tr>
+            <td>Setor :
+            <%= f.collection_select :setor_id, Setor.all( :select => ' id,nome',
+                                          :order  => '2' ), :id,
+                                          :nome %></td>
+          </tr>
+
+          <tr>
             <td  valign="top" >
               <fieldset>
                 <legend>Moneda</legend>
@@ -88,6 +95,7 @@
             </td>
           </tr>
 
+          
           <tr>              
             <td colspan="2" valign="top"> Concepto :<%= f.text_area :descricao,
                                        :cols => 135, :rows => 6 %></td>

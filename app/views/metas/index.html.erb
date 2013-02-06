@@ -10,6 +10,7 @@
       <td width="100" align="center">Periodo Inicial</td>
       <td width="100" align="center">Periodo Final</td>
       <td width="100" align="center">Status</td>
+      <td width="100" align="center">Sector</td>
       <td width="100" align="center">Valor Min. U$</td>
       <td width="100" align="center">Valor Max. U$</td>
       <td width="100" align="center">Valor Min. G$</td>
@@ -27,6 +28,7 @@
           <td width="100"  align="center">    <%= h meta.periodo_inicio.strftime("%d/%m/%Y") %></td>
           <td width="100" align="center">    <%= h meta.periodo_final.strftime("%d/%m/%Y") %></td>
           <td width="100" align="left"  >    <%= h meta.status %></td>
+          <td width="100" align="left"  >    <%= h meta.setor_nome %></td>
           <td width="100" align="left"  >    <%= h meta.valor_min_us %></td>
           <td width="100"  align="center">    <%= h meta.valor_max_us %></td>
           <td width="100"  align="center">    <%= h meta.valor_min_gs %></td>
